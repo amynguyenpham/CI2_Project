@@ -20,7 +20,7 @@ This repository contains code and artifacts for the final project in COMS 4995: 
 ## ⚙️ Training Notebooks
 
 ### 1. `Project_P(YgivenX).ipynb`
-- **Task**: Standard classifier using BERT.
+- **Task**: Standard classifier P(Y|X) using BERT.
 - **Model**: [BERT](https://huggingface.co/docs/transformers/en/model_doc/bert)
 - **Training framework**: [Hugging Face Trainer](https://huggingface.co/transformers/v3.1.0/training.html#trainer)
 
@@ -30,7 +30,7 @@ This repository contains code and artifacts for the final project in COMS 4995: 
 ---
 
 ### 2. `Project_P(YgivenX,A).ipynb`
-- **Task**: Standard classifier trained on both `X` (text) and `A` (topic).
+- **Task**: Standard classifier trained on both `X` (text) and `A` (topic) (P(Y|X,A)).
 - **Model**: [BERT](https://huggingface.co/docs/transformers/en/model_doc/bert)
 - **Trainer**: [Hugging Face Trainer](https://huggingface.co/transformers/v3.1.0/training.html#trainer)
 
