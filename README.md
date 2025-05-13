@@ -42,6 +42,8 @@ These notebooks estimate the interventional distribution \( P^*(Y \mid \text{do}
 - **P\*(A)**: Generated via [FLAN-T5-BASE](https://huggingface.co/google/flan-t5-base)
 - **P(Y \| X, A)**: Precomputed from `Project_P(YgivenX,A).ipynb`
 
+Training results are noted in the notebook
+
 ### 3. `P(Y_do(x))_Twitter_In_Domain.ipynb`
 - In-domain classifier for Twitter.
 
